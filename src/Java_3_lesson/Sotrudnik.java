@@ -1,5 +1,5 @@
 package Java_3_lesson;
-
+/* все эти поля вынести в отдельные класы */
 public class Sotrudnik {
     public String fio;
     public String position;
