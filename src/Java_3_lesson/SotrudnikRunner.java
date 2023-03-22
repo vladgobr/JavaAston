@@ -11,10 +11,6 @@ public class SotrudnikRunner {
         sotArray[3] = new Sotrudnik("Дмитро Дмитрий Дмитривич", "Бухгалтер", "dima@mail.ru", "4444444", 4000, 45);
         sotArray[4] = new Sotrudnik("Васильев Василий Васильевич", "Директор", "vasili@mail.ru", "5555555", 5000, 50);
 
-        for (int i = 0; i < sotArray.length; i++) {
-            if (sotArray[i].getAge() > 40) {
-                sotArray[i].printState();
-            }
-        }
+        SotrudnikSort.print(sotArray);
     }
 }
